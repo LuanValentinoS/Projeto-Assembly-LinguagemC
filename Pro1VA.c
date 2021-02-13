@@ -176,6 +176,6 @@ int main() {
                 D = atoi(parametro2) + D;
             }
         }
-    } //comentario teste
+    } 
     return 0;
 }
