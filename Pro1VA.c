@@ -9,7 +9,7 @@ int main() {
     int A = 0, B = 0, C = 0, D = 0;
     char leituraDeDados[29];
 
-    //Introdução
+    //Introduï¿½ï¿½o
     printf("** Bem vindo ao Simulador Assembly em Linguagem C **\n");
     while (1) {
         printf("Banco de registradores: A:%i B:%i C:%i D:%i", A, B, C, D);
@@ -121,7 +121,7 @@ int main() {
                     strcat(posicaodamemoria, temp);
                     indice++;
                 }
-                int indicePosicaoDaMemoria = atoi(posicaodamemoria); //MOV endereço da memória, constante
+                int indicePosicaoDaMemoria = atoi(posicaodamemoria); //MOV endereï¿½o da memï¿½ria, constante
                 if (parametro2[0] == 'A') {
                     memoria[indicePosicaoDaMemoria] = A;
                 } else if (parametro2[0] == 'B') {
@@ -176,6 +176,6 @@ int main() {
                 D = atoi(parametro2) + D;
             }
         }
-    }
+    } //comentario teste
     return 0;
 }
